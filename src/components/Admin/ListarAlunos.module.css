@@ -1,0 +1,51 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .header {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .row span {
+    flex: 1;
+  }
+  
